@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """annotate function"""
 
-from typing import List, Tuple, Any, Iterable
+from typing import List, Tuple, Sequence, Iterable
 
 
-def element_length(lst: Iterable[Any]) -> List[Tuple[Any, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """annotate variables"""
     return [(i, len(i)) for i in lst]
